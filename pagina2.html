@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <fieldset>
+        <div class="header">
+        <h1>practica formulario</h1>
+        <img src="./src/WhatsApp Image 2023-05-17 at 08.49.01.jpeg" alt="ok" height="250px">
+    </fieldset>
+    </div>
+    <h2>Login</h2>
+    <form action="index.html" method="get" name="frmlogin" autocomplete="off">
+    <fieldset>
+        <legend>Login</legend>
+        <table>
+        <p>
+            <tr>
+
+            <td><label for="user">Usuario:</label></td>
+            <td><input type="text" name="usua" id="usua" placeholder="Usuario" required minlength="3" maxlength="10"></label></td>
+    
+        </tr>
+        </p>
+    
+        <tr>
+            <td><label for="pass">Password:</label></td>
+            <td><input type="password" name="pass" id="pass" placeholder="password" required minlength="8" maxlength="10"></label></td>
+        </tr>
+        <tr>
+            
+            <td><input type="submit" value="login..."/></label></td>
+        </tr>
+        </table>
+        <p>
+        No tienes cuenta?<a href="Registro.html">aqui..</a>
+    </p>
+        <p>
+        olvidaste tu contraseña<a href="Recuperar.html">aqui...</a>
+    </p>
+    </fieldset>
+</form>
+</body>
+</html>

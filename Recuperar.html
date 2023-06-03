@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar contraseña</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Recuperar contraseña</h1>
+    
+    <FIeldset>
+        <legend>Recuperar</legend>
+        <form action="pagina2.html" method="get" name="frmlogin" autocomplete="off">
+        <p>
+            <tr>
+                <td><label for="Usuario"> ingrese su Usuario:</td>
+                <td><input type="Usuario" name="Usuario" id="Usuario" placeholder="Usuario" required minlength="3" maxlength="10"></td>
+            </tr>
+        </p>
+        <p>
+            <tr>
+                <td><label for="email">Ingrese su Correo:</td>
+                <td><input type="email" name="email" id="email" placeholder="Correo electronico" required ></td>
+            </tr>
+        </p>
+
+    <tr>
+        <td><label for="password">Nueva contraseña:</td>
+        <td><input type="password" name="pass" id="pass" placeholder="Nueva contraseña" required minlength="8" maxlength="10"></td>
+
+    </tr>
+    <p>
+    <tr>
+        <td><label for="Confirmar">Confirmar contraseña:</td>
+        <td><input type="Confirmar" name="pass" id="pass" placeholder="Confirmar contraseña" required minlength="8" maxlength="10"></td>
+    </tr>
+</p>
+<p>
+    <input type="submit" value="Enviar">
+</p>
+</form>
+</FIeldset>
+</body>
+</html>
